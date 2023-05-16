@@ -1,0 +1,144 @@
+#labels
+{
+    color:brown;
+    font-size: 20px;
+}
+
+#labels2
+{
+  color:black;
+  padding: 2 px;
+  text-align: center;
+font-style: oblique;
+animation: mymove 2s infinite;
+}
+
+#box
+{
+    border: 2px solid black;
+  padding: 15px;
+  margin: auto;
+  width: 45%;
+  height: 100%;
+  text-align: center;
+}
+
+.button
+{
+    border: 2px solid grey;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+}
+.submitbutton
+{
+    background-color: green;
+    color:white;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+.rbutton
+{
+    background-color: red;
+    color:black;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+}
+.lbox{
+    width:100px;
+    height:35px;
+    margin-left: auto;
+    border:2px solid blue;
+    border-radius: 10px;
+    background-color: white;
+    padding:2px;
+    font-size:large;
+    text-align: center;
+    color: black;
+}
+
+.lbox1{
+    width:100px;
+    height:35px;
+    margin-left: auto;
+    border:2px solid red;
+    border-radius: 10px;
+    background-color: white;
+    padding:2px;
+    font-size:large;
+    text-align: center;
+    color: black;
+}
+
+@keyframes mymove {
+    from {color: rgba(255, 0, 153, 0.789);}
+    to {color: rgba(255, 0, 111, 0.986);}
+  }
+
+
+#myrelativeposition
+{
+    position: relative;
+    top: 30px;
+}
+
+.registerbutton
+{
+    
+    background-color: green;
+    color:white;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+
+}
+
+.greenButton {
+    font-family: Arial;
+    font-size: 17px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 31px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    background-color: #44c767;
+}
+
+.greenButton:hover {
+    background-color: #5cbf2a;
+}
+
+.greenButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.redButton {
+    font-family: Arial;
+    font-size: 17px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 31px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    background-color: #ee4848;
+}
+
+.redButton:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.redButton:active {
+    position: relative;
+    top: 1px;
+}
